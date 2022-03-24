@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html>
+<head lang="tr">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <meta charset="UTF-8">
+    <title></title>
+    <link rel="stylesheet" href="css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="css/style.css"/>
+    <link rel="stylesheet" href="css/flaticon.css"/>
+
+    <link rel="stylesheet" type="text/css" href="css/cs-select.css"/>
+    <link rel="stylesheet" type="text/css" href="css/cs-skin-border.css"/>
+</head>
+<body>
+<header>
+    <nav class="mts-navbar">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-sm-6 col-xs-2">
+                    <a href="index.html"><img src="images/logo.jpg" alt=""/></a>
+                </div>
+                <div class="col-sm-6 col-xs-10 text-right">
+                    <ul>
+                        <li><a href="#">EN</a></li>
+                        <li><a href="#">ACCOUNT</a></li>
+                        <li><a href="#">CARD</a></li>
+                        <li><a href="#"><i></i></a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </nav>
+</header>
+<div id="wrapper">
+    <main id="customer">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-sm-12">
+                    <h1 class="head" style="position: relative;">Customer Information</h1>
+                </div>
+                <div class="col-sm-12">
+                    <ol class="breadcrumb">
+                        <li><a href="#">Cart</a></li>
+                        <li class="active">Customer information</li>
+                        <li><a href="#">Shipping method</a></li>
+                        <li><a href="#">Payment method</a></li>
+                    </ol>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-sm-12 col-md-6 col-md-offset-1">
+                    <div class="media">
+                        <div class="media-left">
+                            <a href="#">
+                                <img class="media-object" src="images/profile.png">
+                            </a>
+                        </div>
+                        <div class="media-body">
+                            <h4 class="media-heading">Lorem Ipsum</h4>
+                            <a class="email" href="mailto:lorem@ipsum.com">lorem@ipsum.com</a><br>
+                            <a class="exit" href="#">Logout</a>
+                        </div>
+                    </div>
+                    <form action="">
+                        <div class="row">
+                            <div class="col-sm-12">
+                                <h3>Shipping Address</h3>
+                            </div>
+                            <div class="col-sm-6">
+                                <div class="form-group">
+                                    <input type="text" class="form-control forms" id="name"
+                                           placeholder="FIRST NAME"><br>
+                                </div>
+                            </div>
+                            <div class="col-sm-6">
+                                <div class="form-group">
+                                    <input type="text" class="form-control forms" id="surname"
+                                           placeholder="LAST NAME"><br>
+                                </div>
+                            </div>
+                            <div class="col-sm-8">
+                                <div class="form-group">
+                                    <input type="text" class="form-control forms" id="address"
+                                           placeholder="ADDRESS"><br>
+                                </div>
+                            </div>
+                            <div class="col-sm-4">
+                                <div class="form-group">
+                                    <input type="text" class="form-control forms" id="apt"
+                                           placeholder="APT/SUITE"><br>
+                                </div>
+                            </div>
+                            <div class="col-sm-12">
+                                <div class="form-group">
+                                    <input type="text" class="form-control forms" id="city"
+                                           placeholder="CITY"><br>
+                                </div>
+                            </div>
+                            <div class="col-sm-6">
+                                <div class="form-group">
+                                    <select class="cs-select cs-skin-border" id="option">
+                                        <option value="" disabled selected>Country</option>
+                                        <option value="small">Small</option>
+                                        <option value="middle">Middle</option>
+                                        <option value="large">Large</option>
+                                    </select>
+                                </div>
+                            </div>
+                            <div class="col-sm-6">
+                                <div class="form-group">
+                                    <input type="text" class="form-control forms" id="postalcode"
+                                           placeholder="POSTAL CODE"><br>
+                                </div>
+                            </div>
+                            <div class="col-sm-12">
+                                <button type="submit" class="btn btn-default btn-submit">CONTINUE TO SHIPPING METHOD</button>
+                            </div>
+                            <div class="col-sm-12">
+                                <a class="return-store" href="#">Return to Store</a>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+                <div class="col-sm-12 col-md-5 col-lg-4">
+                    <div class="prodpucts">
+                        <div class="scroller">
+                            <form action="">
+                                <div class="media">
+                                    <div class="media-left">
+                                        <a href="#">
+                                            <img class="media-object" src="images/product-card-image-light.png">
+                                        </a>
+                                    </div>
+                                    <div class="media-body">
+                                        <h4 class="media-heading"><a href="#">Product Name</a></h4>
+                                        <span>0.99 TL</span>
+                                        <div class="quantity">
+                                            <input type="number" class="form-control" min="0" max="99"
+                                                   step="1" value="0">
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="media">
+                                    <div class="media-left">
+                                        <a href="#">
+                                            <img class="media-object" src="images/product-card-image-light.png">
+                                        </a>
+                                    </div>
+                                    <div class="media-body">
+                                        <h4 class="media-heading"><a href="#">Product Name</a></h4>
+                                        <span>0.99 TL</span>
+                                        <div class="quantity">
+                                            <input type="number" class="form-control" min="0" max="99"
+                                                   step="1" value="0">
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="media">
+                                    <div class="media-left">
+                                        <a href="#">
+                                            <img class="media-object" src="images/product-card-image-light.png">
+                                        </a>
+                                    </div>
+                                    <div class="media-body">
+                                        <h4 class="media-heading"><a href="#">Product Name</a></h4>
+                                        <span>0.99 TL</span>
+                                        <div class="quantity">
+                                            <input type="number" class="form-control" min="0" max="99"
+                                                   step="1" value="0">
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="media">
+                                    <div class="media-left">
+                                        <a href="#">
+                                            <img class="media-object" src="images/product-card-image-light.png">
+                                        </a>
+                                    </div>
+                                    <div class="media-body">
+                                        <h4 class="media-heading"><a href="#">Product Name</a></h4>
+                                        <span>0.99 TL</span>
+                                        <div class="quantity">
+                                            <input type="number" class="form-control" min="0" max="99"
+                                                   step="1" value="0">
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="total-area">
+                                    <div class="total">
+                                        <h5>Subtotal</h5>
+                                        <span>2.92TL</span>
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </main>
+    <div class="footer-ghost"></div>
+</div>
+
+<footer>
+    <div class="arrows"></div>
+    <br><br>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-md-2">
+                <h2>March<br>To<br>Shine</h2>
+            </div>
+            <div class="col-md-2 col-sm-6 col-xs-6">
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li><a href="collections.html">COLLECTIONS</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+                </ul>
+            </div>
+            <div class="col-md-3 col-sm-6 col-xs-6">
+                <ul>
+                    <li><a href="term-of-conditions.html">TERMS OF CONDITIONS</a></li>
+                    <li><a href="#">PRIVACY POLICY</a></li>
+                    <li><a href="#">RETURN CONDITIONS</a></li>
+                    <li><a href="faq.html">FAQ</a></li>
+                </ul>
+            </div>
+            <div class="col-md-3 col-sm-6 col-xs-6">
+                <form class="form-inline">
+                    <div class="form-group">
+                        <input type="email" class="form-control" id="exampleInputEmail3" placeholder="email@example.com">
+                    </div>
+                    <a href="#" class="btn btn-default right-arrow"><i class="flaticon-right-arrow"></i></a>
+                </form>
+            </div>
+            <div class="col-md-2 col-sm-6 col-xs-6">
+                <a href="#"><i class="flaticon-social"></i></a>
+                <a href="#"><i class="flaticon-social-media"></i></a>
+                <a href="#"><i class="flaticon-twitter-logo-button"></i></a>
+            </div>
+        </div>
+    </div>
+</footer>
+
+<script src="js/jquery-3.2.1.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/quantity.js"></script>
+<script src="js/classie.js"></script>
+<script src="js/selectFx.js"></script>
+<script src="js/script.js"></script>
+<script>
+    (function () {
+        [].slice.call(document.querySelectorAll('select.cs-select')).forEach(function (el) {
+            new SelectFx(el);
+        });
+    })();
+</script>
+</body>
+</html>
